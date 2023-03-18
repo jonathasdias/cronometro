@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+    #cronometro {
+        width: 70%;
+        font-size: 5rem;
+    }
+}
+
+
+@media (max-width: 640px) {
+    #cronometro {
+        width: 70%;
+        height: 60%;
+        font-size: 4.5rem;
+    }
+
+    .btn {
+        width: 4rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 472px) {
+    body {
+        padding: 10px;
+    }
+    #cronometro {
+        width: 85%;
+        height: 50%;
+        font-size: 3rem;
+    }
+
+    .btn {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .btn-iniciar {
+        left: -1.8rem;
+    }
+    
+    .btn-pausar {
+        bottom: -1.8rem;
+    }
+    
+    .btn-zerar {
+        right: -1.8rem;
+    }
+}
